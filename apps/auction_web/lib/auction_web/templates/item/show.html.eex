@@ -1,0 +1,5 @@
+<%= @item.title %>
+  
+    Description: <%= @item.description %>
+  
+    Auction ends at: <%= @item.ends_at %>
