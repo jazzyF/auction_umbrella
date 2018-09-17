@@ -1,0 +1,3 @@
+New Item
+
+<%= render "form.html", item: @item, action: item_path(@conn, :create) %>
