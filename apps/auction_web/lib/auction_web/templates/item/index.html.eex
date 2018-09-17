@@ -1,4 +1,4 @@
 <%= for item <- @items do %>
-    
-    <%= item.title %>: <%= item.description %><br />
-  <% end %>
+  <%= link item.title, to: item_path(@conn, :show, item) %> — <%= item.description %> 
+  <br/>
+<% end %>

@@ -17,7 +17,7 @@ defmodule AuctionWeb.Router do
     # Use the default browser stack
     pipe_through(:browser)
 
-    resources("/items", ItemController, only: [:index, :show])
+    resources("/items", ItemController, only: [:index, :show, :new, :create])
   end
 
   # Other scopes may use custom stacks.
